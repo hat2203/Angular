@@ -1,32 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
-li{
-  list-style: none;
-}
-.avatar{
-  float: left;
-}
-.avatar i{
-  line-height: 75px;
-  font-size: 40px;
-  border: 1px solid;
-  width: 75px;
-  height: 75px;
-  border-radius: 100%;
-  text-align: center;
-  margin-top: 25px;
-  margin-right: 10px;
-}
-.mail{
-  float: left;
-}
-.left-side li a{
-  padding-left: 20px;
-  cursor: pointer;
-}
-.mail-list li{
-  float: left;
-  width: 100%;
-}
+/*!* You can add global styles to this file, and also import other style files *!*/
+/*li{*/
+/*  list-style: none;*/
+/*}*/
+/*.avatar{*/
+/*  float: left;*/
+/*}*/
+/*.avatar i{*/
+/*  line-height: 75px;*/
+/*  font-size: 40px;*/
+/*  border: 1px solid;*/
+/*  width: 75px;*/
+/*  height: 75px;*/
+/*  border-radius: 100%;*/
+/*  text-align: center;*/
+/*  margin-top: 25px;*/
+/*  margin-right: 10px;*/
+/*}*/
+/*.mail{*/
+/*  float: left;*/
+/*}*/
+/*.left-side li a{*/
+/*  padding-left: 20px;*/
+/*  cursor: pointer;*/
+/*}*/
+/*.mail-list li{*/
+/*  float: left;*/
+/*  width: 100%;*/
+/*}*/
 /*.header div{*/
 /*  border: 2px solid blue;*/
 /*  border-radius: 10px;*/
@@ -85,4 +85,54 @@ li{
 /*.content li p {*/
 /*  font-size: 16px;*/
 /*}*/
+.col-md-12{
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.col-md-3{
+  border: 1px solid grey;
+}
+.first{
+  float: left;
 
+
+}
+.mail-list{
+  border: 1px solid grey;
+  width: 60%;
+}
+.fist i{
+  line-height: 25px;
+  font-size: 20px;
+  border: 1px solid;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+.avatar i{
+    line-height: 75px;
+    font-size: 40px;
+    border: 1px solid;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.avatar{
+  text-align: center;
+}
+
+.list h3{
+  float: left;
+  width: 100%;
+}
+.list div{
+  display: flex;
+  border: 1px solid grey;
+}
