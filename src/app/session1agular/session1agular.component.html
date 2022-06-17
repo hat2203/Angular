@@ -1,0 +1,18 @@
+<h2>Bang session1</h2>
+<table >
+<thead>
+    <tr>
+  <td>ID</td>
+  <td>Ten</td>
+  <td>Ma may</td>
+  <td>So luong</td>
+</tr>
+</thead>
+
+<tbody>
+<tr *ngFor="let p of data;let i = index">
+  <app-tablesession1 [product]="data[i]"> </app-tablesession1>
+</tr>
+</tbody>
+</table>
+

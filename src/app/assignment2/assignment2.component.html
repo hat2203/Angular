@@ -1,0 +1,27 @@
+
+  <div class="row">
+    <div class="col-md-12">
+      <div>
+<!--        <ul  class="col-md-3 box" *ngFor="let s of data.data.categories">-->
+        <ul class="col-md-3 box" *ngFor="let s of data.data.categories">
+<!--          <li class="li"><b>{{s.name}}</b></li>-->
+          <li class="li"><i class="glyphicon glyphicon-align-left icon"></i>
+            <b>{{s.name}}</b>
+          </li>
+          <li>
+            <div class="task">
+<!--              <ul *ngFor="let m of s.childs">-->
+              <ul *ngFor="let n of s.childs">
+                <li><b>{{n.name}}</b></li>
+                <li>{{n.description}}</li>
+<!--                <li><b>{{m.name}}</b></li>-->
+<!--                <li>{{m.description}}</li>-->
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+

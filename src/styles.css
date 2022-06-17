@@ -1,1 +1,88 @@
 /* You can add global styles to this file, and also import other style files */
+li{
+  list-style: none;
+}
+.avatar{
+  float: left;
+}
+.avatar i{
+  line-height: 75px;
+  font-size: 40px;
+  border: 1px solid;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+.mail{
+  float: left;
+}
+.left-side li a{
+  padding-left: 20px;
+  cursor: pointer;
+}
+.mail-list li{
+  float: left;
+  width: 100%;
+}
+/*.header div{*/
+/*  border: 2px solid blue;*/
+/*  border-radius: 10px;*/
+/*}*/
+/*.header div i {*/
+/*  float: left;*/
+/*}*/
+.li b{
+  font-size: 20px;
+}
+ .icon {
+  line-height: 25px;
+  font-size: 20px;
+  border: 1px solid;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+.task{
+  width: 100%;
+  background-color: #fafafa;
+  border: 1px solid #f5cccc;
+  border-radius: 5px;
+}
+ .task ul{
+   border: 1px solid blue;
+   border-radius: 10px;
+   margin-top: 20px;
+   padding: 30px;
+   background-color: aqua;
+ }
+.li{
+  width: 100%;
+  background-color: #f5f2dc;
+  padding: 10px;
+  border: 1px solid #f59494;
+  border-radius: 5px;
+}
+/*.header div a{*/
+/*  cursor: pointer;*/
+/*}*/
+/*.content li {*/
+/*  border: 1px solid black;*/
+/*  border-radius: 10px;*/
+/*  margin-top: 15px;*/
+/*  padding: 25px;*/
+/*  background-color: #f5f2dc;*/
+/*}*/
+/*.content li h4{*/
+/*  font-size: 20px;*/
+/*  font-weight: 400;*/
+/*  color: red;*/
+/*}*/
+/*.content li p {*/
+/*  font-size: 16px;*/
+/*}*/
+
